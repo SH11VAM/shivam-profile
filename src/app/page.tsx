@@ -91,30 +91,40 @@ export default function Portfolio() {
             {/* About Me */}
             <div className="border-4 border-black bg-white p-8">
               <h2 className="text-4xl font-bold mb-6 text-center">
-                Hi, I'm Rashmin.
+                Hi, I'm Shivam.
               </h2>
               <div className="space-y-4 text-center text-lg">
                 <p>
-                  I'm a 3rd-year Computer Science & Business Systems student
-                  with a strong focus on{" "}
+                  I'm a Full-Stack Developer with a strong focus on{" "}
                   <span className="font-bold">
-                    Rust, backend development, and Web3.
+                    modern frontend development, performance optimization, and
+                    scalable web applications.
                   </span>
                 </p>
+
                 <p>
-                  I've studied Rust and graduated from elite blockchain
-                  fellowships like{" "}
-                  <span className="font-bold">Ackee - School of Solana</span>{" "}
-                  and <span className="font-bold">Turbin3 Builders</span>{" "}
-                  Cohort. I actively build using the{" "}
-                  <span className="font-bold">MERN stack</span> and have an
-                  overview of <span className="font-bold">AI/ML concepts.</span>
+                  I completed a{" "}
+                  <span className="font-bold">
+                    Full-Stack Developer Internship at Younglabs
+                  </span>
+                  , where I worked on production-grade platforms used by
+                  teachers and students. I built and optimized applications
+                  using{" "}
+                  <span className="font-bold">
+                    React, Next.js, TypeScript, and Node.js
+                  </span>
+                  , achieving strong Core Web Vitals and highly responsive user
+                  interfaces.
                 </p>
+
                 <p>
-                  I'm also a student at{" "}
-                  <span className="font-bold">100xDevs</span>, learning to build
-                  scalable, production-ready systems with a strong backend-first
-                  mindset.
+                  With a backend-aware frontend mindset, I focus on building{" "}
+                  <span className="font-bold">
+                    maintainable, production-ready systems
+                  </span>{" "}
+                  with secure APIs, role-based access control, and
+                  performance-driven architecture that solves real user
+                  problems.
                 </p>
               </div>
             </div>
@@ -126,13 +136,7 @@ export default function Portfolio() {
                 <h3 className="text-2xl font-bold">Contributions</h3>
               </div>
 
-              <div className="overflow-x-auto">
-                <GithubProfile />
-              </div>
-
-              <p className="text-center mt-4 text-sm">
-                304 contributions in the last year
-              </p>
+              <GithubProfile />
             </div>
 
             {/* Learning & Interests */}
@@ -143,9 +147,9 @@ export default function Portfolio() {
                   <h3 className="text-2xl font-bold">Learning Now</h3>
                 </div>
                 <ul className="space-y-2 text-lg">
-                  <li>• Rust Lang Book</li>
-                  <li>• Rust Atomics and Locks</li>
-                  <li>• Rust for Rustaceans</li>
+                  <li>• Data Structures & Algorithms </li>
+                  <li>• FastAPI & Flask</li>
+                  <li>• Backend Development</li>
                 </ul>
               </div>
 
@@ -182,7 +186,7 @@ export default function Portfolio() {
 
         {/* Footer */}
         <div className="text-center mt-12 text-gray-600">
-          <p>© 2026 Rashmin • Built with React + Vite</p>
+          <p>© 2026 Shivam • Built with Next.js</p>
         </div>
       </div>
     </div>
