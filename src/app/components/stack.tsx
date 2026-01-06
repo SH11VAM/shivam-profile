@@ -39,9 +39,6 @@ const Stack = () => {
   const database = ["MongoDB", "PostgreSQL"];
   return (
     <div className="flex flex-col gap-7 justify-center">
-      <h2 className="text-4xl font-bold mb-3 text-center underline">
-        TECH-STACK
-      </h2>
       <div className="shadow-[0_0_0_2px_rgb(0,0,0),8px_8px_0_0_rgb(0,0,0)]  p-6">
         <div className="flex items-center gap-2 mb-4">
           <CodeXml size={24} />

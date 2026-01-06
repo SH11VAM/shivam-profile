@@ -51,7 +51,7 @@ export default function Portfolio() {
             </div>
           </div>
 
-          <div className="flex justify-center lg:gap-4 gap-2 mb-12">
+          <div className="flex justify-center lg:gap-4 gap-3 mb-12">
             {[
               { icon: Linkedin, label: "LinkedIn",url:"https://www.linkedin.com/in/shivam-jain-dev/" },
               { icon: Twitter, label: "Twitter",url:"https://x.com/Shivam_2598" },
@@ -61,7 +61,7 @@ export default function Portfolio() {
             ].map(({ icon: Icon, label,url }) => (
               <button
                 key={label}
-                className="px-3 py-2 border-2 border-b-4 border-r-4 border-black rounded-lg transition-color delay-150 duration-300 ease-in-out hover:shadow-[0_0_0_2px_rgb(0,0,0),6px_6px_0_0_rgb(204,153,255)] hover:scale-110 hover:border-0 "
+                className="px-3 py-2 border-2 border-b-4 border-r-4 border-black rounded-lg transition-all delay-150 duration-300 ease-in-out hover:shadow-[0_0_0_2px_rgb(0,0,0),6px_6px_0_0_rgb(204,153,255)] hover:scale-110 hover:border-0 "
                 aria-label={label}
                 onClick={() => window.open(url, "_blank")}
               >
@@ -74,12 +74,12 @@ export default function Portfolio() {
         <hr className="border-2 border-black mb-8" />
 
         {/* Navigation Tabs */}
-        <div className="flex justify-center lg:gap-4 gap-2 mb-12 flex-wrap">
+        <div className="flex justify-center lg:gap-4 gap-2 lg:mb-12 mb-8 flex-wrap">
           {["ABOUT", "STACK", "WORK", "PROJECT"].map((tab) => (
             <button
               key={tab}
               onClick={() => setActiveTab(tab.toLowerCase())}
-              className={`px-8 py-3 border-l-2 border-t-2 border-black border-b-slate-900 border-r-slate-900 border-b-[4.5px] border-r-[4.5px]  font-bold transition-color delay-150 duration-300 ease-in-out hover:shadow-[0_0_0_2px_rgb(0,0,0),5px_5px_0_0_rgb(0,0,0)] rounded-lg hover:scale-110 hover:border-0  ${
+              className={`lg:px-8 px-6 lg:py-3 py-2 border-l-2 border-t-2 lg:text-lg text-sm  border-black border-b-slate-900 border-r-slate-900 border-b-[4.5px] border-r-[4.5px]  font-bold transition-color delay-150 duration-300 ease-in-out hover:shadow-[0_0_0_2px_rgb(0,0,0),5px_5px_0_0_rgb(0,0,0)] rounded-lg hover:scale-110 hover:border-0  ${
                 activeTab === tab.toLowerCase()
                   ? "bg-blue-200"
                   : "bg-white hover:bg-gray-100"
